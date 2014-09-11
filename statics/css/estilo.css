@@ -1,0 +1,144 @@
+/*estilos de font-face*/
+@font-face {
+	font-family: 'icomoon';
+	src:url('../fonts/icomoon.eot?-5i9dh3');
+	src:url('../fonts/icomoon.eot?#iefix-5i9dh3') format('embedded-opentype'),
+		url('../fonts/icomoon.woff?-5i9dh3') format('woff'),
+		url('../fonts/icomoon.ttf?-5i9dh3') format('truetype'),
+		url('../fonts/icomoon.svg?-5i9dh3#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-casa:before {
+	content: "\e600";
+}
+.icon-engrane:before {
+	content: "\eae";
+}
+.icon-nube:before {
+	content: "\e603";
+}
+.icon-corazon:before {
+	content: "\e601";
+}
+/*estilo para el body*/
+body {
+  	background:rgb(235,235,235);
+}
+.contenido {
+  	background:rgb(255,255,255);
+  	margin: 1em;
+	position: relative;
+	width: auto;
+}
+/*Header*/
+
+.Header {
+	background: url(../images/Top_view2.jpg) no-repeat center center fixed ;
+	webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	/*este estili funciona para las resoluciones pequeñas 
+	height: 100%;*/
+	height: 700px;
+	width: 100%;
+  	display: block;
+}
+.Header-logo {
+	display: inline-block;
+
+}
+.Header-imageLogo {
+	border-radius:60%;
+}
+/*menu*/
+.menu{
+	display: inline-block;
+	float: right;
+}
+.menu-list{
+	color: white;
+	background: #272727;
+	border-radius:.5em;
+	border: solid .1em;
+	margin: 1em;
+}
+
+.menu-item{
+	display: inline-block;
+	float:rigth;
+	margin: .9em;
+	padding: 1em;
+}
+.menu-item:hover{
+	background: #A4A4A4;
+	color: #272727;
+	border-radius:14px;
+	-webkit-transition: all 600ms cubic-bezier(0.455, 0.030, 0.515, 0.955); 
+    -moz-transition: all 600ms cubic-bezier(0.455, 0.030, 0.515, 0.955); 
+    -o-transition: all 600ms cubic-bezier(0.455, 0.030, 0.515, 0.955); 
+    transition: all 600ms cubic-bezier(0.455, 0.030, 0.515, 0.955);
+}
+/*slide*/
+.Header-slide{
+	background: #282828;
+	color: #D9D9D9;
+	margin: 400px;
+}
+.Header-slideParrafo {
+	padding: 2em;
+}
+/*estilos para el titulo h1*/
+.title {
+	text-align: center;
+}
+.title-bienbenido {
+	color: #4B4B4B;
+}
+.title-span{
+	background: #282828;
+	color: white;
+}
+/*estolos para la descropcion general*/
+.descripcionGeneral {
+
+}
+.articulo {
+	display: inline-block;
+	border: solid red;
+	margin-top: 4em;
+	margin-left: 0;
+	margin-right:0;
+}
+.articulo-logo {
+	font-size: 1.9em;
+	background: #282828;
+	color: white;
+	display: inline-block;
+	padding: .5em;
+	border-radius: 50%;
+	margin: auto;
+}
+.articulo-titulo {
+	display: inline-block;
+	margin-left:1em;
+}
+.articulo-texto {
+	overflow: hidden;
+}
