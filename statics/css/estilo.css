@@ -45,6 +45,7 @@ body {
   	margin: 1em;
 	position: relative;
 	width: auto;
+
 }
 /*Header*/
 
@@ -117,14 +118,14 @@ body {
 }
 /*estolos para la descropcion general*/
 .descripcionGeneral {
+	/*display:inline-block es muy usado para crear cajas con contenido variable y que éstas se apilen una al costado de la otra muy fácilmente. La forma de centrar este tipo de elementos depende de su contenedor padre:*/
+	text-align: center;
 
 }
 .articulo {
 	display: inline-block;
-	border: solid red;
-	margin-top: 4em;
-	margin-left: 0;
-	margin-right:0;
+/*	border: solid red;*/
+	margin: 0 auto;
 }
 .articulo-logo {
 	font-size: 1.9em;
@@ -141,4 +142,29 @@ body {
 }
 .articulo-texto {
 	overflow: hidden;
+	text-align: left;
+}
+/*estilos para trabajo*/
+.trabajo {
+	text-align: center;
+}
+.trabajo-titulo {
+	background: #313131;
+	color: #C7C7C7;
+	display: block;
+	text-align: center;
+}
+.trabajo-articulo {
+	display: inline-block;
+/*	border: solid blue;*/
+	margin: 0 auto;
+}
+.trabajo-contenedorImagen {
+
+}
+.trabajo-imagen {
+
+}
+.trabajo-texto {
+
 }
